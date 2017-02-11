@@ -1,0 +1,8 @@
+#!usr/bin/env ruby
+
+require_relative '../config/environment.rb'
+
+Warehouse.create('Guitar Gods')
+Warehouse.create('Best Instruments')
+Warehouse.create('Oklahoma Music')
+Cli.new.call
